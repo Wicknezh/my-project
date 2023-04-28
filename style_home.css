@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image/8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+ul li a:hover {
+    color: black;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn{
+    display: inline-block;
+    background:brown ;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background-image:0;
+
+}
+.header .row{
+    margin-top: 70px;
+}
+
+.logo {
+    color: rgb(148, 15, 15);
+    display:flex;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.col-1{
+    flex-basis: 50%;
+    min-width: 300px;
+    text-align: justify;
+    text-align:right;
+}
+.col-1 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-1 ul{
+    list-style-type: none;
+}
+
